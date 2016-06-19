@@ -297,7 +297,7 @@ right:0;
 
 .btn_twitter div:nth-child(2) {
     background-color: #3AC2D1;
-    color: whitesmoke; !important
+    color: whitesmoke !important;/*; estava antes do !important*/
     width: 230px;
     transition: all 0.2s ease;
     -webkit-transition: all 0.2s ease;
@@ -324,7 +324,7 @@ right:0;
     -moz-transform: translate(-15px, 0px) skewX(-30deg);
 }
 
-.btn_website:hover div:nth-child(3) {
+.btn_twitter:hover div:nth-child(3)/*nome da classe estava errado*/ {
     left: 0px;
     transition: left 0.30000000000000004s ease;
     -webkit-transition: left 0.30000000000000004s ease;
